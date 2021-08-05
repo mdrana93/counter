@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background: cornflowerblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px 2px #000;
+}
+.box textarea{
+    width: 95%;
+    height: 250px;
+    border: 2px solid #D980FA;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #D980FA;
+    resize: none;
+    color: #fff;
+    font-size: 18px;
+}
+.box textarea::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+.box .count{
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+}
+.box .count p{
+    color: #fff;
+    font-size: 18px;
+}
